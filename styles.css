@@ -1,0 +1,52 @@
+.appear-from-top {
+	transform: translateY(-50px);
+	opacity: 0.0;
+	transition: transform 0.7s, opacity 0.7s;
+}
+
+.top-appeared {
+	transform: translateY(0px);
+	opacity: 1.0;	
+}
+
+.appear-from-left {
+	transform: translateX(-50px);
+	opacity: 0.0;
+	transition: transform 0.7s, opacity 0.7s;
+}
+
+.left-appeared {
+	transform: translateX(0px);
+	opacity: 1.0;	
+}
+
+.appear-from-right {
+	transform: translateX(50px);
+	opacity: 0.0;
+	transition: transform 0.7s, opacity 0.7s;
+}
+
+.right-appeared {
+	transform: translateX(0px);
+	opacity: 1.0;	
+}
+
+.appear-from-bottom {
+	transform: translateY(50px);
+	opacity: 0.0;
+	transition: transform 0.7s, opacity 0.7s;
+}
+
+.bottom-appeared {
+	transform: translateY(0px);
+	opacity: 1.0;	
+}
+
+.appear-from-nothing {
+	opacity: 0.0;
+	transition: opacity 0.7s;
+}
+
+.nothing-appeared {
+	opacity: 1.0;	
+}
